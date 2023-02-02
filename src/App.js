@@ -1,8 +1,9 @@
 import './App.css';
-import Button from './composants/button';
 import Header from './composants/header';
 import HomeDesc from './composants/homeDesc';
+import Infos from './composants/infos';
 import Projets from './composants/projets';
+import Footer from './composants/footer';
 
 function App() {
   return (
@@ -10,11 +11,8 @@ function App() {
       <Header />
       <HomeDesc />
       <Projets />
-      <div id='cv' className='btns'>
-        <Button id={0} />
-        <Button id={1} />
-      </div>
-
+      <Infos />
+      <Footer />
     </div>
   );
 }
