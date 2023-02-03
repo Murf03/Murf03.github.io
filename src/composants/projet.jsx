@@ -3,7 +3,7 @@ import Thumb from './thumb';
 import Techno from './techno';
 
 import './composants.css';
-import Indicator from './indcator';
+import Indicator from './indicator';
 
 export default function Projet(props) {
     const link = (props.link !== '' && props.link !== null && props.link !== undefined) ? props.link : null;
@@ -13,7 +13,7 @@ export default function Projet(props) {
             <span></span>
             <Indicator link={link !== null} />
             <div className='technos'>
-                {props.technos.map(e => <Techno name={e} />)}
+                {props.technos.map(e => <Techno key={e} name={e} />)}
             </div>
             <p>{props.description}</p>
         </div>

@@ -45,8 +45,8 @@ export default function StackElm(props) {
     return <div className='stack-elm'>
         {icon}
         <p> - </p>
-        <div className='technos'>
-            {technos.map(e => <Techno name={e} />)}
+        <div className='stack-technos'>
+            {technos.map(e => <Techno key={e} name={e} />)}
         </div>
     </div>
 }

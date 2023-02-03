@@ -14,7 +14,8 @@ export default function Thumb(props) {
     const ext = getExt(props.name);
     const fileName = '../images/' + props.name + ext;
     const alt = "Projet " + props.name;
+    const className = 'img-' + props.name;
     return <div className='thumb'>
-        <img src={fileName} alt={alt} />
+        <img className={className} src={fileName} alt={alt} />
     </div>
 }

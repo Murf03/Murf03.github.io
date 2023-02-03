@@ -4,7 +4,7 @@ import './composants.css';
 const img = "../images/me.jpg";
 
 export default function HomeDesc(props) {
-    return <div className='home'>
+    return <div id='#home-desc' className='home'>
         <span></span>
         <div className='home-div'>
             <div className='home-desc'>
