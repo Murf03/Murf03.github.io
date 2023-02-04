@@ -1,7 +1,7 @@
 {
   "homepage": "https://murf03.github.io",
   "name": "portfolio_v2",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "private": true,
   "dependencies": {
     "@reduxjs/toolkit": "^1.9.2",
